@@ -25,7 +25,7 @@ router.get('/creartabla', function(req, res, next) {
 });
 
 
-//Alta de registros
+//Alta de registros.
 router.get('/alta', function(req, res, next) {
   res.render('altaarticulos');
 });
